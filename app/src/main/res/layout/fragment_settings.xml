@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_marginBottom="24dp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_sms_detection"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SMS Auto-detection"
+        android:layout_marginBottom="16dp" />
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switch_notifications"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show notifications on detection"
+        android:layout_marginBottom="32dp" />
+
+    <Button
+        android:id="@+id/btn_test_sms"
+        style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Test SMS Detection"
+        app:icon="@android:drawable/ic_menu_send"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btn_sync_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Manual SMS Sync (Last 50)"
+        app:icon="@android:drawable/ic_popup_sync" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Processes last 50 SMS from inbox if auto-detection was blocked"
+        android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+        android:gravity="center" />
+
+</LinearLayout>

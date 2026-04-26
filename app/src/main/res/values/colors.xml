@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#6C3FC5</color>
+    <color name="primary_variant">#5A35A3</color>
+    <color name="secondary">#FFD700</color>
+    <color name="background">#F8F4FF</color>
+    <color name="surface">#FFFFFF</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="on_secondary">#000000</color>
+    <color name="on_background">#1A0533</color>
+    <color name="on_surface">#1A0533</color>
+
+    <!-- Gradient Colors -->
+    <color name="gradient_start">#1A0533</color>
+    <color name="gradient_end">#0D47A1</color>
+
+    <!-- Category Colors -->
+    <color name="cat_food">#FF6B6B</color>
+    <color name="cat_travel">#4ECDC4</color>
+    <color name="cat_shopping">#45B7D1</color>
+    <color name="cat_entertainment">#96CEB4</color>
+    <color name="cat_health">#FFEAA7</color>
+    <color name="cat_bills">#DDA0DD</color>
+    <color name="cat_education">#98D8C8</color>
+    <color name="cat_other">#F7DC6F</color>
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
